@@ -40,6 +40,7 @@ module ActiveAdmin
             )
           end.join.html_safe
         end
+        template.concat(html)
       end
 
       module ClassMethods
